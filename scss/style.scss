@@ -1,0 +1,33 @@
+$mainColor: #678983;
+$secondColor: #E6DDC4;
+$thirdColor: #191919;
+$borderLogo: 15px;
+$borderRegular: 5px;
+$borderBig: 10px;
+
+//BASE
+@import 'base/reset';
+@import 'base/vars';
+@import 'base/utilities';
+
+//COMPONENTS
+@import 'components/navbar';
+@import 'components/footer';
+
+//LAYOUT
+@import 'layout/index';
+@import 'layout/ciclo-de-negocio';
+@import 'layout/contacto';
+@import 'layout/faq';
+@import 'layout/rentabilidad';
+@import 'layout/mediaqueries';
+
+
+
+
+
+
+
+
+
+

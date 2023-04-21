@@ -5,6 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- ETIQUETAS PARA EL SEO -->
+    <!-- Primary Meta Tags -->
+    <title>Tokawha - Ganadería familiar</title>
+    <meta name="title" content="Tokawha - Contacto">
+    <meta name="description"
+        content="Dejanos un mensaje para que podamos ayudarte a resolver tus inquietudes. Un equipo de expertos te ayudará.">
+    <meta name="keywords" content="Ganadería,inversiones, fideicomiso, rentabilidad, contacto, ayuda">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mejicat.github.io/PreEntrega3-Gatto/">
+    <meta property="og:title" content="Tokawha - Contacto">
+    <meta property="og:description"
+        content="Dejanos un mensaje para que podamos ayudarte a resolver tus inquietudes. Un equipo de expertos te ayudará.">
+    <meta property="og:image" content="../multimedia/Horizonte.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mejicat.github.io/PreEntrega3-Gatto/">
+    <meta property="twitter:title" content="Tokawha - Contacto">
+    <meta property="twitter:description"
+        content="Dejanos un mensaje para que podamos ayudarte a resolver tus inquietudes. Un equipo de expertos te ayudará.">
+    <meta property="twitter:image"
+        content="../multimedia/Horizonte.jpeg">
+    <!-- FAVICON -->  
+    <link rel="shortcut icon" href="../multimedia/Logo.jpeg" type="image/x-icon">
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +49,11 @@
 
     <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
             <div class="container-fluid">
-                <img src="../multimedia/Logo.jpeg" alt="logo tokowha" class="navbar-brand caja">
+                <a href="../index.html" title="Link home">
+                    <img src="../multimedia/Logo.jpeg" alt="logo tokowha" class="navbar-brand logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
                     aria-label="Toggle navigation">
@@ -41,8 +69,7 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item"> <a href="../index.html" class="nav-link active">Inicio</a> </li>
-                            <li class="nav-item"> <a href="rentabilidad.html" class="nav-link active">Rentabilidad</a>
-                            </li>
+                            <li class="nav-item"> <a href="rentabilidad.html" class="nav-link active">Rentabilidad</a></li>
                             <li class="nav-item"> <a href="ciclo-de-negocio.html" class="nav-link active">Ciclo de
                                     negocio</a> </li>
                             <li class="nav-item"> <a href="faq.html" class="nav-link active">FAQ</a> </li>
@@ -56,35 +83,35 @@
 
     <!-- MAIN -->
     <main>
-        <section class="main-contacto-grilla">
-            <div class="intro-contacto">
+        <section class="contacto">
+            <div class="contacto__intro">
                 <h2>Queremos saber de vos</h2>
                 <p>Queremos conocer cuáles son tus expectativas, inquietudes o consultas. </br> Un profesional se pondrá
                     en contacto
                     pronto.</p>
             </div>
-            <div class="caja-contacto">
+            <div class="contacto__caja">
                 <form action="" class="form">
-                    <div>
+                    <div class="form__input">
                         <label for="nombre"> Nombre </label>
                         <input type="text" name="nombre" placeholder="Ingrese su nombre">
                     </div>
-                    <div>
+                    <div class="form__input">
                         <label for="apellido"> Apellido </label>
                         <input type="text" name="apellido" placeholder="Ingrese su apellido">
                     </div>
-                    <div>
+                    <div class="form__input">
                         <label for="mail"> Mail </label>
                         <input type="email" name="mail" placeholder="Ingrese su mail">
                     </div>
-                    <div>
+                    <div class="form__input">
                         <label for="teléfono"> Teléfono </label>
                         <input type="number" name="teléfono" placeholder="Sin 0 ni 15">
                     </div>
-                    <div>
+                    <div class="form__input">
                         <textarea name="" cols="50" rows="15" class="form-text-me">Escribinos</textarea>
                     </div>
-                    <div>
+                    <div class="form__input">
                         <input type="submit" value="Enviar" class="form-text-me">
                     </div>
             </div>

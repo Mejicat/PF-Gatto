@@ -1,0 +1,22 @@
+/* HEADER - NAVBAR */
+.logo {
+    width: 75px;
+    height: 75px;
+    border-radius: $borderLogo;
+    transition: 1s;
+    &:hover {
+        transform: rotatez(360deg);
+    }
+}
+.nav-link {
+    color: $secondColor;
+    padding: 3px;
+    transition: 0.5s;
+    &:hover{
+        color: $thirdColor;
+        background-color: $secondColor;
+        border-radius: $borderRegular;
+        padding: 3px;
+    }
+}
+

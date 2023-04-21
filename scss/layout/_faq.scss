@@ -1,0 +1,19 @@
+/* MAIN FAQ*/
+
+.faq {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.faq__accordion {
+    padding-bottom: 220px;
+}
+
+.accordion-body {
+    background-color:$mainColor ;
+}
+
+.accordion {
+    --bs-accordion-active-bg: #E6DDC4;  /* al colocar la variable $secondColor se me rompe */
+}

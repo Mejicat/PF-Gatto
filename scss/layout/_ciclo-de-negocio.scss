@@ -1,0 +1,41 @@
+/* MAIN CICLO DE NEGOCIO*/
+
+.ciclo {
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  /* validar acá si debo anidar o no */
+    &__caja {
+        width: 100%;
+        height: 100%;
+        &__imagen {
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: $borderRegular;
+            transition: 1s;
+            &:hover {
+                transform: rotateX(25deg);
+            }
+        }        
+    }
+}
+
+
+.ciclo__iconos {
+    @include flex (column,center,center);
+    &__caja__iconos {
+        width: 78px;
+        height: 78px;
+        object-fit: cover;
+        padding: 10px;
+    }
+}
+
+
+.ciclo__cta {
+    @include flex (row,center,center);
+    padding: 20px;
+}

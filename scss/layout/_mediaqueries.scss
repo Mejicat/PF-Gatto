@@ -1,0 +1,678 @@
+/* PARA TABLET */
+@media screen and (min-width: 600px) {
+
+    .btn .btn-primary .btn-dark .accordion-button .accordion-header .collapsed .accordion {
+        /* BOTON DE LAS CARDS EN HOME */
+        background-color: $thirdColor ;
+        padding: 15px;
+        color: $secondColor;
+        border: none;
+    }
+
+    .btn:hover .btn-primary:hover .btn-dark:hover .accordion-button:hover .accordion-header:hover .collapsed:hover .accordion:hover {
+        background-color: $secondColor ;
+        padding: 15px;
+        color: $thirdColor;
+        border: none;
+    }
+
+    /* MAIN INICIO */
+    .carousel {
+        width: 100%;
+    }
+
+    .w-100 {
+        max-height: 400px;
+        object-fit: cover;
+        border-radius: $borderRegular;
+    }
+
+    main .plataforma__grilla {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px;
+        gap: 10px;
+    }
+
+    main .plataforma__grilla__caja {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    main .plataforma__grilla__caja__imagen {
+        display: flex;
+        object-fit: cover;
+        border-radius: $borderBig;
+        border-color: $secondColor;
+        border-width: $borderRegular;
+        width: 100%;
+        height: 100%;
+        transition: 1s;
+
+        &:hover {
+            transform: rotateX(25deg);
+        }
+    }
+
+
+    .video {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 300px;
+        gap: 10px;
+        text-align: left;
+        justify-content: center;
+
+        &__caja {
+            width: 100%;
+            display: flex;
+            transition: 1s;
+
+            &:hover {
+                transform: rotateX(25deg);
+            }
+
+            &__content {
+                width: 500px;
+            }
+        }
+    }
+
+
+    /* MAIN CICLO DE NEGOCIO - TABLET */
+    .ciclo {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px;
+        gap: 10px;
+
+        &__caja {
+            width: 100%;
+            height: 100%;
+
+            &__imagen {
+                height: 300px;
+                object-fit: cover;
+                border-radius: $borderRegular;
+            }
+        }
+    }
+
+
+    .ciclo__iconos {
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2 area3'
+            'area4 area5 area6'
+            'area7 area8 area9';
+        column-gap: 20px;
+        text-align: center;
+    }
+
+    .c1 {
+        grid-area: area1;
+    }
+
+    .c2 {
+        grid-area: area4;
+    }
+
+    .c3 {
+        grid-area: area7;
+    }
+
+    .c4 {
+        grid-area: area2;
+    }
+
+    .c5 {
+        grid-area: area5;
+    }
+
+    .c6 {
+        grid-area: area8;
+    }
+
+    .c7 {
+        grid-area: area3;
+    }
+
+    .c8 {
+        grid-area: area6;
+    }
+
+    .c9 {
+        grid-area: area9;
+    }
+
+    .ciclo__iconos__caja {
+        width: 100%;
+        height: 100%;
+
+        &__iconos {
+            width: 78px;
+            height: 78px;
+            object-fit: cover;
+            padding: 10px;
+        }
+    }
+
+    .ciclo__cta {
+        text-align: center;
+        padding: 50px;
+    }
+
+    /* FAQ - TABLET */
+
+    .faq__accordion {
+        padding-bottom: 150px;
+    }
+
+    /* RENTABILIDAD - TABLET */
+
+    .rentabilidad__iconos {
+        padding-left: 20px;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2'
+            'area4 area5'
+            'area7 area8'
+            'area3 area10'
+            'area6 area13'
+            'area9 area16'
+            'area11 area12'
+            'area14 area15'
+            'area17 area18'
+        ;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .rentabilidad__iconos__caja__iconos {
+        width: 78px;
+        height: 78px;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+
+    .c1 {
+        grid-area: area1;
+    }
+
+    .c2 {
+        grid-area: area4;
+    }
+
+    .c3 {
+        grid-area: area7;
+    }
+
+    .c4 {
+        grid-area: area2;
+    }
+
+    .c5 {
+        grid-area: area5;
+    }
+
+    .c6 {
+        grid-area: area8;
+    }
+
+    .c7 {
+        grid-area: area3;
+    }
+
+    .c8 {
+        grid-area: area6;
+    }
+
+    .c9 {
+        grid-area: area9;
+    }
+
+    .c10 {
+        grid-area: area10;
+    }
+
+    .c11 {
+        grid-area: area13;
+    }
+
+    .c12 {
+        grid-area: area16;
+    }
+
+    .c13 {
+        grid-area: area11;
+    }
+
+    .c14 {
+        grid-area: area14;
+    }
+
+    .c15 {
+        grid-area: area17;
+    }
+
+    .c16 {
+        grid-area: area12;
+    }
+
+    .c17 {
+        grid-area: area15;
+    }
+
+    .c18 {
+        grid-area: area18;
+    }
+
+    .car_rentabilidad {
+        margin-top: 0px;
+    }
+
+    /* FOOTER TABLET */
+    footer {
+        background-color: $thirdColor;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-footer-list {
+        @include flex (row, center, center);
+    }
+
+    .nav-footer-list li {
+        display: inline-block;
+        margin: 30px;
+    }
+
+    .nav-footer-p {
+        text-align: center;
+    }
+
+}
+
+
+
+
+/* PARA DESKTOP */
+@media screen and (min-width: 915px) {
+
+    /* HEADER */
+
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    .nav-link {
+        color: $secondColor;
+        padding: 3px;
+        transition: 0.5s;
+
+        &:hover {
+            color: $thirdColor;
+            background-color: $secondColor;
+            border-radius: $borderRegular;
+            padding: 3px;
+        }
+    }
+
+    /* MAIN INICIO */
+
+    .w-100 {
+        max-height: 500px;
+        object-fit: cover;
+        border-radius: $borderRegular;
+    }
+
+    .btn .btn-primary .accordion-button .accordion-header .collapsed .accordion {
+        background-color: $thirdColor ;
+        padding: 15px;
+        color: $secondColor;
+        border: none;
+    }
+
+    .btn:hover .btn-primary:hover .accordion-button:hover .accordion-header:hover .collapsed:hover .accordion:hover {
+        background-color: $secondColor ;
+        padding: 15px;
+        color: $thirdColor;
+        border: none;
+    }
+
+    .carousel-caption {
+        padding-bottom: 100px;
+    }
+
+    .plataforma__grilla {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px;
+        gap: 10px;
+
+        &__caja {
+            width: 100%;
+            height: 100%;
+
+            &__boton {
+                color: $thirdColor;
+                margin-top: 20px;
+            }
+
+            &__imagen {
+                display: flex;
+                object-fit: cover;
+                border-radius: $borderBig;
+                border-color: $secondColor;
+                border-width: $borderRegular;
+            }
+        }
+    }
+
+    main .formas__inversion {
+        @include flex (row, center, center);
+        padding: 10px;
+        border: none;
+    }
+
+    main .video {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 300px;
+        gap: 10px;
+        text-align: left;
+
+        &__caja {
+            width: 100%;
+            display: flex;
+
+            &__content {
+                width: 500px;
+            }
+        }
+    }
+
+
+    /* MAIN CICLO DE NEGOCIO*/
+    .ciclo {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px;
+        gap: 10px;
+
+        &__caja {
+            width: 100%;
+            height: 100%;
+
+            &__imagen {
+                height: 300px;
+                object-fit: cover;
+                border-radius: $borderRegular;
+            }
+        }
+    }
+
+
+    .ciclo__iconos {
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2 area3'
+            'area4 area5 area6'
+            'area7 area8 area9';
+        column-gap: 60px;
+        text-align: center;
+    }
+
+    .c1 {
+        grid-area: area1;
+    }
+
+    .c2 {
+        grid-area: area4;
+    }
+
+    .c3 {
+        grid-area: area7;
+    }
+
+    .c4 {
+        grid-area: area2;
+    }
+
+    .c5 {
+        grid-area: area5;
+    }
+
+    .c6 {
+        grid-area: area8;
+    }
+
+    .c7 {
+        grid-area: area3;
+    }
+
+    .c8 {
+        grid-area: area6;
+    }
+
+    .c9 {
+        grid-area: area9;
+    }
+
+    .ciclo__iconos__caja {
+        width: 100%;
+        height: 100%;
+
+        &__iconos {
+            width: 78px;
+            height: 78px;
+            object-fit: cover;
+            padding: 10px;
+        }
+    }
+
+    .ciclo__cta {
+        text-align: center;
+        padding: 50px;
+    }
+
+
+    /* MAIN CONTACTO*/
+    .contacto {
+        padding-top: 20px;
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        align-items: flex-start;
+
+        &__intro {
+            text-align: left;
+        }
+    }
+
+    .form {
+        padding-bottom: 30px;
+    }
+
+    .form-text-me {
+        color: $mainColor;
+    }
+
+    /* MAIN FAQ*/
+    .faq {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+
+    .accordion-body {
+        background-color: $mainColor ;
+    }
+
+    /* RENTABILIDAD - DESKTOP */
+    .rentabilidad {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: auto;
+        gap: 10px;
+
+        &__caja {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+    .rentabilidad__iconos {
+        padding-left: 20px;
+        padding-bottom: 50px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area2 area3'
+            'area4 area5 area6'
+            'area7 area8 area9'
+            'area10 area11 area12'
+            'area13 area14 area15'
+            'area16 area17 area18'
+        ;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .rentabilidad__iconos__caja__iconos {
+        width: 78px;
+        height: 78px;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+    .c1 {
+        grid-area: area1;
+    }
+
+    .c2 {
+        grid-area: area4;
+    }
+
+    .c3 {
+        grid-area: area7;
+    }
+
+    .c4 {
+        grid-area: area2;
+    }
+
+    .c5 {
+        grid-area: area5;
+    }
+
+    .c6 {
+        grid-area: area8;
+    }
+
+    .c7 {
+        grid-area: area3;
+    }
+
+    .c8 {
+        grid-area: area6;
+    }
+
+    .c9 {
+        grid-area: area9;
+    }
+
+    .c10 {
+        grid-area: area10;
+    }
+
+    .c11 {
+        grid-area: area13;
+    }
+
+    .c12 {
+        grid-area: area16;
+    }
+
+    .c13 {
+        grid-area: area11;
+    }
+
+    .c14 {
+        grid-area: area14;
+    }
+
+    .c15 {
+        grid-area: area17;
+    }
+
+    .c16 {
+        grid-area: area12;
+    }
+
+    .c17 {
+        grid-area: area15;
+    }
+
+    .c18 {
+        grid-area: area18;
+    }
+
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    /* FOOTER */
+    footer {
+        background-color: $thirdColor;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-footer-list {
+        @include flex (row, center, center)
+    }
+
+    .nav-footer-list li {
+        display: inline-block;
+        margin: 30px;
+    }
+
+    .nav-footer-p {
+        text-align: center;
+    }
+}

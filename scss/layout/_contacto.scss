@@ -1,0 +1,81 @@
+/* CONTACTO */
+
+.contacto {
+    @include flex (column,center,center);
+    margin-top: 90px;
+    background-color: $mainColor;
+    &__intro {
+        text-align: center;
+    }
+    &__caja {
+    @include flex (column,center,center);  
+    }
+}
+
+
+form {
+    @include flex (column,center,center);
+    gap: 5px;
+    margin-top: 10px;}
+
+.form__input {
+    @include flex (column,center,left);
+        gap: 3px;
+    }
+
+.form-text-me {
+    margin-bottom: 10px;   
+    color: $mainColor;      
+}
+
+input {
+    width: 320px;
+    padding: 10px;
+    transition: 0.5s;
+    &:focus {
+        background-color:$thirdColor ;
+        outline: none;
+    }
+    &:hover {
+        background-color:$thirdColor ;
+        padding: 15px;
+        width: 350px;
+        color: $secondColor;
+    }
+}
+
+textarea {
+    width: 320px;
+    padding: 10px; 
+    resize: none;
+    transition: 0.5s;
+    &:focus {
+        background-color:$thirdColor ;
+        outline: none;
+    }
+    &:hover {
+        background-color:$thirdColor ;
+        padding: 15px;
+        width: 350px;
+        color: $secondColor;
+    }
+}
+
+ .btn .btn-primary .accordion-button .accordion-header .collapsed .accordion {  
+    background-color:$thirdColor ;
+    padding: 15px;
+    color: $secondColor;
+    border: none;
+}
+
+.btn:hover .btn-primary:hover .accordion-button:hover .accordion-header:hover .collapsed:hover .accordion:hover {
+    background-color:$secondColor ;
+    padding: 15px;
+    color: $thirdColor;
+    border: none;
+}
+
+.accordion {
+    --bs-accordion-active-bg: $secondColor;
+  }
+

@@ -1,0 +1,18 @@
+/* FOOTER */
+footer {
+    @include flex (row,center,center);
+    background-color: $thirdColor;
+}
+
+.nav-footer-list {
+    display: none;
+}
+
+.nav-footer-list li {
+    display: inline-block;
+    margin: 30px;
+}
+
+.nav-footer-p {
+    text-align: center;
+}

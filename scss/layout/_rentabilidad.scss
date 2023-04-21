@@ -1,0 +1,30 @@
+/* MAIN RENTABILIDAD*/
+
+.rentabilidad {
+    @include flex (column,center,center);
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 10px;
+    &__caja {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.rentabilidad__iconos__caja {
+    @include flex (row,center,center);
+    text-align: center;
+    &__iconos {
+        width: 78px;
+        height: 78px;
+        object-fit: cover;
+        padding: 10px;
+    }
+}
+.car_rentabilidad {
+    margin-top: 0px;
+}
+
+
+

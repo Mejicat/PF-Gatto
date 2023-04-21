@@ -5,6 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ETIQUETAS PARA EL SEO -->
+    <!-- Primary Meta Tags -->
+    <title>Tokawha - Ganadería familiar</title>
+    <meta name="title" content="Tokawha - Ganadería familiar">
+    <meta name="description"
+        content="Somos una empresa comprometida con la calidad y el bienestar animal, criando y cuidando nuestro ganado de manera responsable y sostenible. Sumate a nuestra familia.">
+    <meta name="keywords" content="Ganadería,inversiones, fideicomiso, rentabilidad, retorno">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mejicat.github.io/PreEntrega3-Gatto/">
+    <meta property="og:title" content="Tokawha - Ganadería familiar">
+    <meta property="og:description"
+        content="Somos una empresa comprometida con la calidad y el bienestar animal, criando y cuidando nuestro ganado de manera responsable y sostenible. Sumate a nuestra familia.">
+    <meta property="og:image" content="multimedia/Horizonte.jpeg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mejicat.github.io/PreEntrega3-Gatto/">
+    <meta property="twitter:title" content="Tokawha - Ganadería familiar">
+    <meta property="twitter:description"
+        content="Somos una empresa comprometida con la calidad y el bienestar animal, criando y cuidando nuestro ganado de manera responsable y sostenible. Sumate a nuestra familia.">
+    <meta property="twitter:image"
+        content="multimedia/Horizonte.jpeg">
+    <!-- FAVICON -->   
+    <link rel="shortcut icon" href="multimedia/Logo.jpeg" type="image/x-icon">
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,36 +46,45 @@
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
-              <img src="multimedia/Logo.jpeg" alt="logo tokowha" class="navbar-brand caja">
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Tokowha</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <a href="index.html" title="Link home">
+                    <img src="multimedia/Logo.jpeg" alt="logo tokowha" class="navbar-brand logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Tokowha</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item"> <a href="index.html" class="nav-link active">Inicio</a> </li>
+                            <li class="nav-item"> <a href="pages/rentabilidad.html"
+                                    class="nav-link active">Rentabilidad</a> </li>
+                            <li class="nav-item"> <a href="pages/ciclo-de-negocio.html" class="nav-link active">Ciclo
+                                    de negocio</a> </li>
+                            <li class="nav-item"> <a href="pages/faq.html" class="nav-link active">FAQ</a> </li>
+                            <li class="nav-item"> <a href="pages/contacto.html" class="nav-link active">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item"> <a href="index.html" class="nav-link active">Inicio</a> </li>
-                    <li class="nav-item"> <a href="pages/rentabilidad.html" class="nav-link active">Rentabilidad</a> </li>
-                    <li class="nav-item"> <a href="pages/ciclo-de-negocio.html" class="nav-link active">Ciclo de negocio</a> </li>
-                    <li class="nav-item"> <a href="pages/faq.html" class="nav-link active">FAQ</a> </li>
-                    <li class="nav-item"> <a href="pages/contacto.html" class="nav-link active">Contacto</a> </li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </nav>
+        </nav>
     </header>
 
 
     <!-- MAIN -->
     <main>
         <section class="media"> <!--INICIO SECTION MEDIA-->
-            
+
             <!-- SECCIÓN PITCHING SLIDER-->
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
@@ -99,64 +134,65 @@
             </div>
 
             <!-- SECCIÓN PLATAFORMA VIRTUAL-->
-            <section class="plataforma-virtual-grilla">
-                <div class="caja-grilla">
+            <section class="plataforma__grilla">
+                <section class="plataforma__grilla__caja">
                     <h2>Conocé nuestra plataforma virtual</h2>
                     <p>Contamos actualmente con más de 500 terneros y 1.000 vacas de cría, utilizando más de 2.000
                         hectáreas
                         disponibles.</p>
                     <p>Es tu primera vez?</p>
-                    <input type="button" value="Contactanos" href="contacto.html" class="main-inicio-plataforma">
-                </div>
-                <div class="caja-grilla">
-                    <img src="multimedia/Angus.jpeg" alt="Angus" class="imagen-inicio-lateral caja-grilla">
+                    <input type="button" value="Contactanos" href="pages/contacto.html"
+                        class="plataforma__grilla__caja__boton">
+                </section>
+                <div class="plataforma__grilla__caja">
+                    <img src="multimedia/Angus.jpeg" alt="Angus" class="plataforma__grilla__caja__imagen">
                 </div>
             </section>
 
             <!-- SECCIÓN OFERTA DE INVERSIONES-->
-            <section class="formas-inversion-desktop">
-            <section class="formas-inversion">
-            <div class="card" style="width: 18rem;">
-                <img src="multimedia/Ganado Vacuno en corral.jpeg" class="card-img-top" alt="vaca de cría">
-                <div class="card-body">
-                  <h5 class="card-title">Fideicomiso ganadero</h5>
-                  <p class="card-text">Vaca de cría</p>
-                  <input type="button" value="Ver más" href=".." class="cta-card">
-                </div>
-              </div>
-            </section>
-              
-            <section class="formas-inversion">
-              <div class="card" style="width: 18rem;">
-                <img src="multimedia/Atardecer.jpeg" class="card-img-top" alt="vaca de recría">
-                <div class="card-body">
-                  <h5 class="card-title">Fideicomiso ganadero</h5>
-                  <p class="card-text">Vaca de recría</p>
-                  <input type="button" value="Ver más" href=".." class="cta-card">
-                </div>
-              </div>
-            </section>
+            <section class="formas__inversion">
+                <section class="formas__inversion__card">
+                    <div class="card" style="width: 18rem;">
+                        <img src="multimedia/Ganado Vacuno en corral.jpeg" class="card-img-top" alt="vaca de cría">
+                        <div class="card__body">
+                            <h5 class="card__body__title">Fideicomiso ganadero</h5>
+                            <p class="card__body__text">Vaca de cría</p>
+                            <input type="button" value="Ver más" href=".." class="card__body__cta">
+                        </div>
+                    </div>
+                </section>
 
-            <section class="formas-inversion">
-              <div class="card" style="width: 18rem;">
-                <img src="multimedia/Horizonte.jpeg" class="card-img-top" alt="hacienda vacuna">
-                <div class="card-body">
-                  <h5 class="card-title">Plazo fijo</h5>
-                  <p class="card-text">Vacuno</p>
-                  <input type="button" value="Ver más" href=".." class="cta-card">
-                </div>
-              </div>
+                <section class="formas__inversion__card">
+                    <div class="card" style="width: 18rem;">
+                        <img src="multimedia/Atardecer.jpeg" class="card-img-top" alt="vaca de recría">
+                        <div class="card__body">
+                            <h5 class="card__body__title">Fideicomiso ganadero</h5>
+                            <p class="card__body__text">Vaca de recría</p>
+                            <input type="button" value="Ver más" href=".." class="card__body__cta">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="formas__inversion__card">
+                    <div class="card" style="width: 18rem;">
+                        <img src="multimedia/Horizonte.jpeg" class="card-img-top" alt="hacienda vacuna">
+                        <div class="card__body">
+                            <h5 class="card__body__title">Plazo fijo</h5>
+                            <p class="card__body__text">Vacuno</p>
+                            <input type="button" value="Ver más" href=".." class="card__body__cta">
+                        </div>
+                    </div>
+                </section>
             </section>
-        </section>
 
             <!-- SECCIÓN VIDEO INSTITUCIONAL -->
-            <section class="video-institucional-grilla">
+            <section class="video">
                 <div>
                     <h2>Somos Tokowha</h2>
                     <p>Conocenos y se parte del negocio.</p>
                 </div>
-                <div class="caja-video-institucional">
-                    <iframe class="video-institucional" src="https://www.youtube.com/embed/g_-Fyz0GOdU"
+                <div class="video__caja">
+                    <iframe class="video__caja__content" src="https://www.youtube.com/embed/g_-Fyz0GOdU"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen>
@@ -182,10 +218,10 @@
             <p> © 2023 takowha. All rights reserved.</p>
         </nav>
     </footer>
- <!--SCRIPT BOOTSTRAP-->
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
- integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
- crossorigin="anonymous"></script>
+    <!--SCRIPT BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
