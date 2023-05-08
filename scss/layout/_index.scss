@@ -53,14 +53,18 @@
     }
 
     .card {
-        border: none;
         padding: 0px;
+        --bs-card-border-width: 3px;
+        --bs-card-inner-border-radius: none;
+        --bs-card-border-color: #E6DDC4;   /* no pude hacer funcionar la variable dentro de este Bootstrap */
 
         &__body__text {
-            color: $thirdColor;
+            color: $mainColor;
+            padding: 5px;
         }
         &__body__title {
-            color: $thirdColor;
+            color: $mainColor;
+            padding: 5px;
         }
         }
     
@@ -86,10 +90,7 @@
             display: flex;
             width: 100%;
             min-height: 300px;
-            transition: 1s;
-            &:hover {
-                transform: rotateX(25deg);
-            }
+
             &__content {
                 border-radius: $borderRegular;
             }
